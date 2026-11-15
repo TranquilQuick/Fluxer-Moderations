@@ -21,8 +21,7 @@
 
 招待リンク、短縮リンク、トークン、日英不適切語、連投/フラッド、絵文字・Markdownスパム、マルウェアURLを検査します。違反1・2回目は警告し、3回目にBANします。レイド検知では状態を記録し、作成直後のアカウントを検出した場合はBotにキック権限があると確認できたときにキックします。レイドモード中のサーバー認証レベル変更APIは含みません。
 
-## url_checker.pyで使用するオススメのフィルター
-- [Online Malicious URL Blocklist](https://gitlab.com/malware-filter/urlhaus-filter)
-- [Phishing URL Blocklist](https://gitlab.com/malware-filter/phishing-filter)
+## url_checker.pyで使用するフィルター
+uBlock Origin形式のフィルターを使用してください。
 # 注記
 safetextの依存関係でPythonのバージョンは3.12.xがいいかと思われます。
