@@ -1,4 +1,4 @@
-# Fluxer Antispam bot
+# Fluxer Moderations Bot
 
 ## 主な機能
 
